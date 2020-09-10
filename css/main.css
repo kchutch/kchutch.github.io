@@ -11,7 +11,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  background: no-repeat center url(../Images/lake.jpg);
+  background: no-repeat center url(../images/lake.jpg);
   background-size: cover;
 }
 
@@ -80,32 +80,32 @@ header p {
 }
 
 .g-item1 {
-  background: no-repeat center url(../Images/pontoon.jpg);
+  background: no-repeat center url(../images/pontoon.jpg);
   background-size: cover;
 }
 
 .g-item2 {
-  background: no-repeat center url(../Images/floaties.jpg);
+  background: no-repeat center url(../images/floaties.jpg);
   background-size: cover;
 }
 
 .g-item3 {
-  background: no-repeat center url(../Images/giraffe.jpg);
+  background: no-repeat center url(../images/giraffe.jpg);
   background-size: cover;
 }
 
 .g-item4 {
-  background: no-repeat center url(../Images/ducks.jpg);
+  background: no-repeat center url(../images/ducks.jpg);
   background-size: cover;
 }
 
 .g-item5 {
-  background: no-repeat center url(../Images/lodge-front.jpg);
+  background: no-repeat center url(../images/lodge-front.jpg);
   background-size: cover;
 }
 
 .g-item6 {
-  background: no-repeat center url(../Images/lodge-bear.jfif);
+  background: no-repeat center url(../images/lodge-bear.jfif);
   background-size: cover;
 }
 
