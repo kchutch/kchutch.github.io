@@ -10,7 +10,7 @@ font-family: 'Yellowtail', cursive;*/
 header {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background: no-repeat center url(../images/lake.jpg);
   background-size: cover;
 }
@@ -71,7 +71,6 @@ header p {
   border-bottom-left-radius: 10px;
   animation-name: example;
   animation-duration: 0.25s;
-  border-left: 8px solid RGBA(6, 154, 119, 1);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .lodge-grid section p:hover {

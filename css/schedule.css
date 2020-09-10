@@ -47,6 +47,22 @@ legend {
 #slideshowleft img {
   max-height: 12rem;
   width: 12rem;
+  animation: fadeinout 5s ease-in-out infinite;
+}
+
+@keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 input,
