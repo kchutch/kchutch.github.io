@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <title>Repair Request Form</title>
+    <link rel="stylesheet" href="../CSS/repair.css" />
+  </head>
+  <body>
+    <form>
+      <header>
+        <p>Repair Request Form</p>
+        <p>Keep Rustic Haven working</p>
+      </header>
+      <fieldset>
+        <legend>Repair Report</legend>
+        <div class="info">
+          <div class="item name">
+            <label for="fname">First Name<span>*</span></label>
+            <input id="fname" type="text" name="fname" />
+          </div>
+          <div class="item name">
+            <label for="lname"> Last Name<span>*</span></label>
+            <input id="lname" type="text" name="lname" />
+          </div>
+        </div>
+        <div class="info">
+          <div class="item">
+            <label for="checkindate">Report Date <span>*</span></label>
+            <input id="checkindate" type="date" name="checkindate" />
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="urgency">
+              <p>Type of Request</p>
+              <ul>
+            <li><input checked type="radio" name="request" />Urgent Repair</li>
+            <li><input type="radio" name="request"/>Non-Urgent Repair</li>
+            <li><input type="radio" name="request"/>Lodge Suggestion</li>
+        </ul>
+        </div>
+        <div class="info">
+          <div class="item">
+            <label for="area">Area of Concern</label>
+            <select name="kind" id="area" >
+              <option disabled selected value="0">Choose an Option</option>
+              <option value="1">Repair (Main House - Upper Level)</option>
+              <option value="2">Repair (Main House - Lower Level)</option>
+              <option value="3">Repair (Boat House)</option>
+              <option value="4">Repair (Recreation Equipment)</option>
+              <option value="5">Repair (Other)</option>
+              <option value="6">Suggested update</option>
+            </select>
+          </div>
+        </div>
+        <div class="info">
+          <div class="item">
+            <label for="instruction">Detailed Description</label>
+            <textarea id="instruction" rows="3"></textarea>
+          </div>
+        </div>
+        <input type="submit" value="Submit Request" />
+      </fieldset>
+    </form>
+    <footer>
+      <ul class="map">
+        <li><a href="../index.html"> Home</a></li>
+        <li><a href="../forms/schedule.html"> Reservation Request</a></li>
+        <li><a href="../forms/repair.html"> Repair Form</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

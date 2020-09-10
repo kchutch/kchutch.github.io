@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <title>Reservation Request Form</title>
+    <link rel="stylesheet" href="../CSS/schedule.css" />
+  </head>
+  <body>
+    <form>
+      <header>
+        <p>Reservation Request Form</p>
+        <p>Request a lodge week</p>
+      </header>
+
+      <fieldset>
+        <legend>Reservation Details</legend>
+        <div id="slideshowleft">
+          <div><img src="../Images/floaties.jpg" alt="floaties" /></div>
+          <div><img src="../Images/pontoon_2.jpg" alt="pontoon ride" /></div>
+          <div><img src="../Images/sun_lake.jpg" alt="morning lake" /></div>
+        </div>
+        <div class="info">
+          <div class="item name">
+            <label for="fname">First Name<span>*</span></label>
+            <input id="fname" type="text" name="fname" />
+          </div>
+          <div class="item name">
+            <label for="lname"> Last Name<span>*</span></label>
+            <input id="lname" type="text" name="lname" />
+          </div>
+        </div>
+        <div class="info">
+          <div class="item">
+            <label for="checkindate">Check-in Date <span>*</span></label>
+            <input id="checkindate" type="date" name="checkindate" />
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="item">
+            <label for="checkoutdate">Check-out Date <span>*</span></label>
+            <input id="checkoutdate" type="date" name="checkoutdate" />
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+        </div>
+        <div class="info">
+          <div class="item">
+            <label for="guests">Total Number of Guests?</label>
+            <input id="guests" type="number" />
+          </div>
+        </div>
+        <div class="info">
+          <div class="item">
+            <label for="instruction">Special Requests</label>
+            <textarea id="instruction" rows="3"></textarea>
+          </div>
+        </div>
+        <input type="submit" value="Submit Request" />
+      </fieldset>
+    </form>
+    <footer>
+      <ul class="map">
+        <li><a href="../index.html"> Home</a></li>
+        <li><a href="../forms/schedule.html"> Reservation Request</a></li>
+        <li><a href="../forms/repair.html"> Repair Form</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

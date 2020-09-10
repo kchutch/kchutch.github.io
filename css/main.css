@@ -1,0 +1,133 @@
+/*font-family: 'Kalam', cursive;
+font-family: 'Yellowtail', cursive;*/
+* {
+  /*background: lightgreen;*/
+  font-family: "Kalam", cursive;
+  box-sizing: border-box;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background: no-repeat center url(../Images/lake.jpg);
+  background-size: cover;
+}
+
+header img {
+  height: 5rem;
+  width: auto;
+  padding-top: 20px;
+}
+
+header p {
+  font-family: "Yellowtail", cursive;
+  display: inline-block;
+  /*text-align: center;*/
+  font-size: 2rem;
+  color: black;
+  padding-left: 10px;
+}
+
+.rightnav {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.rightnav li {
+  padding: 0 10px;
+}
+
+.rightnav li:hover {
+  color: RGBA(97, 228, 174, 0.5);
+  cursor: pointer;
+}
+
+.lodge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 15rem 15rem;
+  grid-gap: 30px;
+  background-color: RGBA(97, 228, 174, 0.5);
+  place-items: center stretch;
+  padding: 15px;
+}
+
+.lodge-grid section {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 10%;
+  border-radius: 10px;
+}
+
+.lodge-grid section:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid RGBA(6, 154, 119, 1);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.lodge-grid section p:hover {
+  color: RGBA(97, 228, 174, 0.5);
+  cursor: pointer;
+}
+
+.g-item1 {
+  background: no-repeat center url(../Images/pontoon.jpg);
+  background-size: cover;
+}
+
+.g-item2 {
+  background: no-repeat center url(../Images/floaties.jpg);
+  background-size: cover;
+}
+
+.g-item3 {
+  background: no-repeat center url(../Images/giraffe.jpg);
+  background-size: cover;
+}
+
+.g-item4 {
+  background: no-repeat center url(../Images/ducks.jpg);
+  background-size: cover;
+}
+
+.g-item5 {
+  background: no-repeat center url(../Images/lodge-front.jpg);
+  background-size: cover;
+}
+
+.g-item6 {
+  background: no-repeat center url(../Images/lodge-bear.jfif);
+  background-size: cover;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  background: RGBA(6, 85, 67, 0.5);
+}
+
+.map {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.map li {
+  display: inline-block;
+  margin: 1.5rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
