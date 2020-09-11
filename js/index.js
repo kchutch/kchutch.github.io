@@ -10,7 +10,7 @@ setInterval(function () {
 }, 3000);*/
 const images = [
   "../images/floaties.jpg",
-  "../images/lake_2.jpg",
+  "../images/sun_lake.jpg",
   "../images/pontoon_2.jpg",
 ];
 //grab element that image will be in

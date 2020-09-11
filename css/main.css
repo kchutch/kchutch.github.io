@@ -52,7 +52,7 @@ header p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 15rem 15rem;
   grid-gap: 30px;
-  background-color: RGBA(97, 228, 174, 0.5);
+  background-color: white;
   place-items: center stretch;
   padding: 15px;
 }
