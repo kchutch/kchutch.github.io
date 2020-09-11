@@ -72,6 +72,7 @@ header p {
   animation-name: example;
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform: translateY(-6px);
 }
 .lodge-grid section p:hover {
   color: RGBA(97, 228, 174, 0.5);
