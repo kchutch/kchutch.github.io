@@ -74,6 +74,10 @@ header p {
     background: no-repeat center url(../images/lake.jpg);
     background-size: cover;
   }
+
+  header p {
+    color: RGBA(11, 153, 121, 1);
+  }
 }
 
 .lodge-grid section {
