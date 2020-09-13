@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: "Kalam", cursive;
+}
+
+header p {
+  font-family: "Yellowtail", cursive;
+  font-size: 2.5rem;
+  margin-left: 10%;
+}
+
+div p {
+  display: block;
+  font-family: "Kalam", cursive;
+  width: 40%;
+  margin-left: 20%;
+  margin-top: 8rem;
+}
+
+.img1 {
+  max-width: 12rem;
+  position: absolute;
+  top: 12rem;
+  left: 60%;
+  animation: move1 5s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+.img2 {
+  max-width: 12rem;
+  position: absolute;
+  top: 5rem;
+  left: 90%;
+  animation: move2 10s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+/*@keyframes pause {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+*/
+@keyframes move1 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    transform: translate(8rem, 10rem);
+    opacity: 0%;
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    transform: translate(-10rem, 8rem);
+    opacity: 0%;
+  }
+}
