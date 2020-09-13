@@ -57,6 +57,18 @@ header p {
   padding: 15px;
 }
 
+@media (min-width: 411px) {
+  .lodge-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10rem 10rem;
+    grid-gap: 30px;
+    background-color: white;
+    place-items: center stretch;
+    padding: 15px;
+  }
+}
+
 .lodge-grid section {
   height: 100%;
   width: 100%;
