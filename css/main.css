@@ -57,7 +57,7 @@ header p {
   padding: 15px;
 }
 
-@media (min-width: 411px) {
+@media (max-width: 411px) {
   .lodge-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

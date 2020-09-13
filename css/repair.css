@@ -33,6 +33,17 @@ legend {
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+@media (max-width: 411px) {
+  fieldset {
+    margin: 0;
+    max-width: fit-content;
+    box-shadow: none;
+  }
+  legend {
+    padding: 10px 5rem;
+  }
+}
+
 input,
 textarea {
   border-radius: 6px;
