@@ -71,3 +71,27 @@ div p {
     opacity: 0%;
   }
 }
+
+footer {
+  display: block;
+  margin-top: 18rem;
+  width: 100%;
+  height: 5rem;
+  background: RGBA(6, 85, 67, 0.8);
+}
+
+.map {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.map li {
+  display: inline-block;
+  margin: 1.5rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
