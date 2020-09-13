@@ -67,6 +67,13 @@ header p {
     place-items: center stretch;
     padding: 15px;
   }
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background: no-repeat center url(../images/lake.jpg);
+    background-size: cover;
+  }
 }
 
 .lodge-grid section {
