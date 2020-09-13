@@ -44,6 +44,16 @@ legend {
   z-index: -1;
 }
 
+@media (min-width: 411px) {
+  #slideshowleft {
+    display: none;
+  }
+  fieldset {
+    margin: 0;
+    max-width: fit-content;
+  }
+}
+
 #slideshowleft img {
   max-height: 12rem;
   width: 12rem;
