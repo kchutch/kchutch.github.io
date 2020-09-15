@@ -44,7 +44,7 @@ legend {
   z-index: -1;
 }
 
-@media (max-width: 411px) {
+@media (max-width: 450px) {
   #slideshowleft {
     display: none;
   }
