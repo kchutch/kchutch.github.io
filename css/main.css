@@ -10,24 +10,27 @@ font-family: 'Yellowtail', cursive;*/
 header {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
   background: no-repeat center url(../images/lake.jpg);
   background-size: cover;
 }
 
 header img {
-  height: 5rem;
+  height: 4rem;
   width: auto;
-  padding-top: 20px;
+  position: absolute;
+  top: 1.5rem;
+  left: 8%;
 }
 
 header p {
   font-family: "Yellowtail", cursive;
   display: inline-block;
-  /*text-align: center;*/
+  align-self: center;
   font-size: 2rem;
   color: black;
-  padding-left: 10px;
+  text-align: center;
 }
 
 .rightnav {
@@ -36,6 +39,10 @@ header p {
   list-style: none;
   justify-content: flex-end;
   align-items: flex-end;
+  z-index: 2;
+  position: absolute;
+  top: 3rem;
+  left: 77%;
 }
 
 .rightnav li {
