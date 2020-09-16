@@ -55,6 +55,11 @@ h1 {
   cursor: pointer;
 }
 
+.grid-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 @media (max-width: 450px) {
   h1 {
     max-width: fit-content;
