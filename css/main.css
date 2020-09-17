@@ -84,7 +84,19 @@ header p {
 
   header p {
     color: RGBA(11, 153, 121, 1);
-    max-width: 50%;
+  }
+  .rightnav {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    top: 4rem;
+    left: 15%;
+  }
+  header img {
+    display: none;
   }
 }
 
