@@ -148,6 +148,10 @@ div p {
     text-align: center;
     margin: 2rem 1rem;
   }
+  footer {
+    display: block;
+    margin-top: 5rem;
+  }
 }
 
 footer {
