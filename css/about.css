@@ -39,7 +39,7 @@ div p {
   max-width: 12rem;
   position: absolute;
   top: 5rem;
-  left: 90%;
+  left: 70%;
   animation: move2 15s ease-in-out forwards;
   animation-iteration-count: infinite;
 }
@@ -47,8 +47,8 @@ div p {
 .img3 {
   max-width: 12rem;
   position: absolute;
-  top: 15rem;
-  left: 80%;
+  top: 18rem;
+  left: 70%;
   animation: move1 10s ease-in-out reverse;
   animation-iteration-count: infinite;
 }
@@ -66,7 +66,7 @@ div p {
   max-width: 12rem;
   position: absolute;
   top: 25rem;
-  left: 80%;
+  left: 70%;
   animation: move3 15s ease-in-out forwards;
   animation-iteration-count: infinite;
 }
@@ -75,8 +75,17 @@ div p {
   max-width: 12rem;
   position: absolute;
   top: 15rem;
-  left: 90%;
+  left: 70%;
   animation: move3 15s ease-in-out reverse;
+  animation-iteration-count: infinite;
+}
+
+.img7 {
+  max-width: 12rem;
+  position: absolute;
+  top: 15rem;
+  left: 70%;
+  animation: move3 20s ease-in-out forwards;
   animation-iteration-count: infinite;
 }
 
@@ -85,7 +94,7 @@ div p {
     transform: translate(0, 0);
     opacity: 0%;
   }
-  10% {
+  15% {
     opacity: 100%;
   }
   30%,
@@ -122,6 +131,22 @@ div p {
   100% {
     transform: translate(10rem, 0rem);
     opacity: 0%;
+  }
+}
+
+@media (max-width: 450px) {
+  img {
+    display: none;
+  }
+
+  div p {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  header p {
+    text-align: center;
+    margin: 2rem 1rem;
   }
 }
 
